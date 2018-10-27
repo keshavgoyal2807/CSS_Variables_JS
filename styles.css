@@ -2,6 +2,7 @@
     --spacing:10px;
     --blur:0px;
     --base:#ffc600;
+    --width1:800px;
 }
 body{
     font-size: 10px;
@@ -22,6 +23,7 @@ img{
     padding: var(--spacing);
     filter: blur(var(--blur));
     background-color: var(--base);
+    width: var(--width1);
 }
 .h1{
     color: var(--base);
