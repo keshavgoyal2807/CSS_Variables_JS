@@ -1,0 +1,28 @@
+:root{
+    --spacing:10px;
+    --blur:0px;
+    --base:#ffc600;
+}
+body{
+    font-size: 10px;
+    text-align: center;
+}
+h2{
+    font-size: 3rem;
+}
+.controls{
+    font-size: 2rem;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+input{
+    width: 100px;
+}
+img{
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    background-color: var(--base);
+}
+.h1{
+    color: var(--base);
+}
